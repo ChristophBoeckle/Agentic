@@ -136,8 +136,8 @@
     <div class="container mx-auto px-4 py-8 md:py-16">
 
         <header class="text-center mb-12 md:mb-20">
-            <h1 id="main-title" data-lang-key="main_title" class="text-4xl md:text-5xl font-bold text-gray-800 mb-4"></h1>
-            <p id="main-subtitle" data-lang-key="main_subtitle" class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto"></p>
+            <h1 data-lang-key="main_title" class="text-4xl md:text-5xl font-bold text-gray-800 mb-4"></h1>
+            <p data-lang-key="main_subtitle" class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto"></p>
             
             <div class="mt-6">
                 <label for="language-select" class="sr-only">Select Language</label>
@@ -153,7 +153,7 @@
         <main>
             <!-- Section 1: The Three Stages -->
             <section id="stages" class="mb-16 md:mb-24">
-                <h2 id="stages-title" data-lang-key="stages_title" class="text-3xl font-bold text-center text-gray-800 mb-10"></h2>
+                <h2 data-lang-key="stages_title" class="text-3xl font-bold text-center text-gray-800 mb-10"></h2>
 
                 <div class="max-w-4xl mx-auto">
                     <div class="flex justify-center mb-8 border-b border-gray-200">
@@ -188,7 +188,7 @@
                                 <li class="flex items-start"><span class="text-blue-600 mr-3 mt-1">▶</span><div data-lang-key="digital_focus"></div></li>
                                 <li class="flex items-start"><span class="text-blue-600 mr-3 mt-1">▶</span><div data-lang-key="digital_tech"></div></li>
                                 <li class="flex items-start"><span class="text-blue-600 mr-3 mt-1">▶</span><div data-lang-key="digital_action"></div></li>
-                                <li class="flex items-start"><span class="text-blue-600 mr-3 mt-1">▶</span><div data-lang-key="digital_reactivity"></div></li>
+                                <li class="flex items-start"><span class="text-blue-600 mr-3 mt-1">▶</span><div data-lang-key="digitalized_reactivity"></div></li>
                             </ul>
                         </div>
                         <!-- Agentic Content -->
@@ -209,8 +209,8 @@
             <!-- Section 2: The Leapfrog Opportunity -->
             <section id="leapfrog" class="bg-gray-800 text-white rounded-lg p-8 md:p-12 mb-16 md:mb-24">
                  <div class="text-center mb-10">
-                    <h2 id="leapfrog-main-title" data-lang-key="leapfrog_main_title" class="text-3xl font-bold mb-3"></h2>
-                    <p id="leapfrog-main-subtitle" data-lang-key="leapfrog_main_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto"></p>
+                    <h2 data-lang-key="leapfrog_main_title" class="text-3xl font-bold mb-3"></h2>
+                    <p data-lang-key="leapfrog_main_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto"></p>
                 </div>
 
                 <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 my-8">
@@ -263,8 +263,8 @@
 
             <!-- Section: AI Evolution Timeline -->
             <section id="ai-timeline" class="mb-16 md:mb-24">
-                <h2 id="timeline-main-title" data-lang-key="timeline_main_title" class="text-3xl font-bold text-center text-gray-800 mb-3"></h2>
-                <p id="timeline-main-subtitle" data-lang-key="timeline_main_subtitle" class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10"></p>
+                <h2 data-lang-key="timeline_main_title" class="text-3xl font-bold text-center text-gray-800 mb-3"></h2>
+                <p data-lang-key="timeline_main_subtitle" class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10"></p>
 
                 <div class="relative max-w-4xl mx-auto py-8">
                     <div class="timeline-line absolute left-1/2 transform -translate-x-1 hidden md:block"></div>
@@ -338,8 +338,8 @@
 
             <!-- Section 3: Maturity Model Chart -->
             <section id="chart-section">
-                <h2 id="chart-title" data-lang-key="chart_title" class="text-3xl font-bold text-center text-gray-800 mb-3"></h2>
-                <p id="chart-subtitle" data-lang-key="chart_subtitle" class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10"></p>
+                <h2 data-lang-key="chart_title" class="text-3xl font-bold text-center text-gray-800 mb-3"></h2>
+                <p data-lang-key="chart_subtitle" class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-10"></p>
                 <div class="chart-container bg-white p-4 rounded-lg shadow-lg">
                     <canvas id="maturityChart"></canvas>
                 </div>
@@ -348,7 +348,7 @@
         </main>
 
         <footer class="text-center mt-16 md:mt-24 text-gray-500">
-            <p id="footer-text" data-lang-key="footer_text"></p>
+            <p data-lang-key="footer_text"></p>
         </footer>
 
     </div>
@@ -486,14 +486,84 @@
                 timeline_agi_approximation_date: "Ab 2028: AGI-Annäherung & Superintelligenz-Debatte",
                 timeline_agi_approximation_desc: "**Prognose (u.a. Elon Musk, Sam Altman):** KI-Systeme nähern sich der Fähigkeit, *jede* intellektuelle Aufgabe eines Menschen zu erfüllen. Fokus auf AI-Sicherheit und Alignment wird global dominant.",
                 timeline_agi_approximation_relevance: "**Relevanz für Agentic Leapfrog:** Das frühe Verständnis und die Integration von Agenten-Technologie ist entscheidend, um die Kontrolle zu behalten und die enormen Potenziale dieser Stufe zu nutzen. Wer zu spät kommt, wird von der Entwicklung überrollt.",
-                chart_title: "Reifegradmodell der Transformation",
-                chart_subtitle: "Die agentische Stufe liefert exponentiellen Geschäftswert und Autonomie im Vergleich zum technologischen und finanziellen Aufwand.",
-                chart_x_axis: "Technologische Reife & Integration",
-                chart_y_axis: "Geschäftswert & Autonomie",
-                chart_digitalized_summary: "Fokus auf Effizienzsteigerung bestehender Prozesse.",
-                chart_digital_summary: "Fokus auf neue, digital-native Geschäftsmodelle.",
-                chart_agentic_summary: "Fokus auf autonome, proaktive Wertschöpfung durch KI.",
-                footer_text: "&copy; 2025 Strategische Unternehmensentwicklung. Ein konzeptioneller Rahmen."
+                chart_title: "Maturity Model of Transformation",
+                chart_subtitle: "The agentic stage delivers exponential business value and autonomy compared to technological and financial effort.",
+                chart_x_axis: "Technological Maturity & Integration",
+                chart_y_axis: "Business Value & Autonomy",
+                chart_digitalized_summary: "Focus on increasing efficiency of existing processes.",
+                chart_digital_summary: "Focus on new, digital-native business models.",
+                chart_agentic_summary: "Focus on autonomous, proactive value creation through AI.",
+                footer_text: "&copy; 2025 Strategic Business Development. A conceptual framework."
+            },
+            de: {
+                main_title: "Die Evolution der Unternehmen",
+                main_subtitle: "Vom digitalisierten Prozess zur autonomen, agentischen KI-Führung – eine strategische Notwendigkeit und Ihre größte Chance.",
+                stages_title: "Drei Stufen der Transformation",
+                tab_digitalized: "Digitalisiert",
+                tab_digital: "Digital",
+                tab_agentic: "Agentisch",
+                digitalized_title: "Stufe 1: Digitalisiertes Unternehmen",
+                digitalized_subtitle: "Das 'aufgemotzte Analoge'",
+                digitalized_focus: "<strong>Fokus:</strong> Analoge Prozesse werden 1:1 digital abgebildet. Effizienzsteigerung bestehender Abläufe steht im Vordergrund.",
+                digitalized_tech: "<strong>Technologie:</strong> Dient als Werkzeug zur Beschleunigung und Verwaltung. Software unterstützt primär menschliche Arbeitsschritte.",
+                digitalized_action: "<strong>Aktion:</strong> Online-Formulare ersetzen Papier, digitale Ablagen ersetzen Aktenschränke. Das 'Was' bleibt gleich, nur das 'Wie' wird schneller.",
+                digitalized_reactivity: "<strong>Reaktivität:</strong> Das Geschäftsmodell bleibt hoch reaktiv und in seiner Logik unverändert.",
+                digital_title: "Stufe 2: Digitales Unternehmen",
+                digital_subtitle: "Das 'digital Native'",
+                digital_focus: "<strong>Fokus:</strong> Geschäftsmodelle und das Kundenerlebnis werden von Grund auf digital neu gedacht.",
+                digital_tech: "<strong>Technologie:</strong> Ist der Kern des Geschäftsmodells und Enabler für neue, digitale Produkte, Services und datengetriebene Entscheidungen.",
+                digital_action: "<strong>Aktion:</strong> App-First-Ansätze, Aufbau digitaler Ökosysteme, personalisierte Angebote basierend auf Big Data Analytics.",
+                digital_reactivity: "<strong>Reaktivität:</strong> Agil und schnell in der Reaktion, aber die grundlegende Steuerung bleibt menschenzentriert.",
+                agentic_title: "Stufe 3: Agentisches Unternehmen",
+                agentic_subtitle: "Der 'autonome Gestalter'",
+                agentic_focus: "<strong>Fokus:</strong> Autonome, proaktive Wertschöpfung durch KI-Agenten, die übergeordnete Ziele verstehen und verfolgen.",
+                agentic_tech: "<strong>Technologie:</strong> Ist ein autonomer Akteur und der lernende Motor des Geschäfts. KI trifft Entscheidungen und optimiert sich selbst.",
+                agentic_action: "<strong>Aktion:</strong> KI-Agenten erkennen Kundenbedürfnisse proaktiv, entwickeln Produktvarianten, optimieren Lieferketten und steuern Betriebsabläufe.",
+                agentic_proactivity: "<strong>Proaktivität:</strong> Das System ist hoch proaktiv und selbstoptimierend; der Mensch wird zum strategischen Überwacher.",
+                leapfrog_main_title: "Die strategische Chance: Der 'Leapfrog'-Sprung",
+                leapfrog_main_subtitle: "Digitalisierte Unternehmen müssen nicht den linearen Weg gehen. Sie können die digitale Stufe überspringen und ihre Wettbewerber durch den direkten Sprung zur agentischen Führung überholen.",
+                leapfrog_stage1_title: "Stufe 1: Digitalisiert",
+                leapfrog_stage3_title: "Stufe 3: Agentisch",
+                leapfrog_why_possible_header: "Warum der Sprung möglich ist",
+                leapfrog_why_data: "<strong>Vorhandene digitale Daten:</strong> Digitalisierte Unternehmen besitzen den Rohstoff für KI-Training.",
+                leapfrog_why_tech_maturity: "<strong>Technologische Reife:</strong> Moderne KI-Frameworks können als intelligente Schicht ('AI-Overlay') über bestehende Systeme gelegt werden.",
+                leapfrog_why_agile: "<strong>Agile Inkubation:</strong> Schnelles Testen und Skalieren von KI-Agenten in Pilotprojekten ist möglich, ohne das gesamte Unternehmen umzubauen.",
+                leapfrog_what_needed_header: "Was dafür notwendig ist",
+                leapfrog_what_data_quality: "<strong>Datenintegration & -qualität:</strong> Aufbau einer konsolidierten, sauberen und zugänglichen Datenbasis.",
+                leapfrog_what_ai_expertise: "<strong>Spezialisierte KI-Expertise:</strong> Investition in oder Partnerschaft mit Experten für den Aufbau von KI-Agenten.",
+                leapfrog_what_cultural_change: "<strong>Kultureller Wandel & Vertrauen:</strong> Förderung von Autonomie und Risikobereitschaft; Aufbau von Vertrauen in KI-gesteuerte Prozesse.",
+                leapfrog_what_strategy: "<strong>Klare Strategie & Führung:</strong> Ein entschlossenes Top-Down-Commitment zur agentischen Transformation.",
+                timeline_main_title: "Die KI-Evolution & Ihr Timing-Vorteil",
+                timeline_main_subtitle: "Eine Zeitlinie der grundlegenden KI-Entwicklung, die zeigt, wie Sie durch 'Leapfrogging' das richtige Timing nutzen können.",
+                timeline_chatgpt_date: "November 2022: ChatGPT Launch",
+                timeline_chatgpt_desc: "Demokratisierung von Large Language Models (LLMs) und Beginn des breiten Interesses an generativer KI.",
+                timeline_chatgpt_relevance: "**Relevanz für Agentic Leapfrog:** Ermöglicht erste Schritte zu intelligenten, dialogbasierten Assistenten und Automatisierungen.",
+                timeline_gpt4_date: "März 2023: GPT-4 & Multimodalität",
+                timeline_gpt4_desc: "Deutlich erweiterte Fähigkeiten in Logik, Kreativität und Verständnis verschiedener Datenformate (Text, Bild).",
+                timeline_gpt4_relevance: "**Relevanz für Agentic Leapfrog:** Basis für komplexere, kontextsensitivere Agenten, die vielfältige Aufgaben lösen können.",
+                timeline_agent_frameworks_date: "April/Mai 2023: Erste KI-Agenten-Frameworks",
+                timeline_agent_frameworks_desc: "Konzepte wie Auto-GPT und BabyAGI zeigen das Potenzial für autonome, zielorientierte KI-Systeme.",
+                timeline_agent_frameworks_relevance: "**Relevanz für Agentic Leapfrog:** Das Konzept des 'Agenten' wird greifbar; erste Experimente mit autonomen Prozessen werden möglich.",
+                timeline_enterprise_platforms_date: "Spät 2023/Früh 2024: Enterprise Agenten-Plattformen",
+                timeline_enterprise_platforms_desc: "Große Tech-Anbieter (z.B. Microsoft Autogen, AWS Bedrock Agents) stellen Tools für den Unternehmenseinsatz bereit.",
+                timeline_enterprise_platforms_relevance: "**Relevanz für Agentic Leapfrog:** Agenten-Technologie wird produktionsreifer und sicherer für den Einsatz in regulierten Branchen.",
+                timeline_reasoning_tools_date: "Laufend (2024-2025): Reasoning & Tool Use",
+                timeline_reasoning_tools_desc: "LLMs werden besser im logischen Denken, Planen und Nutzen externer Software/Datenbanken. KI-Agenten werden komplexer.",
+                timeline_reasoning_tools_relevance: "**Relevanz für Agentic Leapfrog:** Agenten können komplexere, mehrstufige Geschäftsprozesse autonom abwickeln und mit bestehenden Systemen interagieren.",
+                timeline_specialized_agi_date: "2025-2027: Spezialisierte AGI / 'Frontier Models'",
+                timeline_specialized_agi_desc: "**Prognose (u.a. Sam Altman, Larry Page):** KI-Modelle erreichen menschliches Niveau in spezifischen, breiten kognitiven Domänen (z.B. komplexes juristisches Denken, wissenschaftliche Forschung). Deutliche Fortschritte in der Multimodalität und Echtzeit-Interaktion.",
+                timeline_specialized_agi_relevance: "**Relevanz für Agentic Leapfrog:** Ermöglicht den Aufbau hochautonomer, spezialisierter Agenten, die ganze Geschäftsbereiche transformieren können. Wer jetzt investiert, sichert sich die Expertise für diese nächste Welle.",
+                timeline_agi_approximation_date: "Ab 2028: AGI-Annäherung & Superintelligenz-Debatte",
+                timeline_agi_approximation_desc: "**Prognose (u.a. Elon Musk, Sam Altman):** KI-Systeme nähern sich der Fähigkeit, *jede* intellektuelle Aufgabe eines Menschen zu erfüllen. Fokus auf AI-Sicherheit und Alignment wird global dominant.",
+                timeline_agi_approximation_relevance: "**Relevanz für Agentic Leapfrog:** Das frühe Verständnis und die Integration von Agenten-Technologie ist entscheidend, um die Kontrolle zu behalten und die enormen Potenziale dieser Stufe zu nutzen. Wer zu spät kommt, wird von der Entwicklung überrollt.",
+                chart_title: "Maturity Model of Transformation",
+                chart_subtitle: "The agentic stage delivers exponential business value and autonomy compared to technological and financial effort.",
+                chart_x_axis: "Technological Maturity & Integration",
+                chart_y_axis: "Business Value & Autonomy",
+                chart_digitalized_summary: "Focus on increasing efficiency of existing processes.",
+                chart_digital_summary: "Focus on new, digital-native business models.",
+                chart_agentic_summary: "Focus on autonomous, proactive value creation through AI.",
+                footer_text: "&copy; 2025 Strategic Business Development. A conceptual framework."
             },
             pt: {
                 main_title: "A Evolução das Empresas",
@@ -539,7 +609,7 @@
                 timeline_chatgpt_desc: "Democratização de Grandes Modelos de Linguagem (LLMs) e início do interesse generalizado em IA generativa.",
                 timeline_chatgpt_relevance: "**Relevância para o Salto Agêntico:** Permite os primeiros passos em direção a assistentes inteligentes baseados em diálogo e automações.",
                 timeline_gpt4_date: "Março de 2023: GPT-4 e Multimodalidade",
-                timeline_gpt4_desc: "Capacidades significativamente expandidas em lógica, criatividade e compreensão de vários formatos de dados (texto, imagem).",
+                timeline_gpt4_desc: "Capacidades significativamente expandidas em lógica, criatividade e compreensão de vários formatos de dados (text, image).",
                 timeline_gpt4_relevance: "**Relevância para o Salto Agêntico:** Base para agentes mais complexos e sensíveis ao contexto, capazes de resolver diversas tarefas.",
                 timeline_agent_frameworks_date: "Abril/Maio de 2023: Primeiros Frameworks de Agentes de IA",
                 timeline_agent_frameworks_desc: "Conceitos como Auto-GPT e BabyAGI demonstram o potencial para sistemas de IA autónomos e orientados a objetivos.",
@@ -586,10 +656,10 @@
                 digital_reactivity: "<strong>反应性：</strong>敏捷且反应迅速，但基本控制仍以人为中心。",
                 agentic_title: "阶段3：代理式企业",
                 agentic_subtitle: "“自主创造者”",
-                agentic_focus: "<strong>焦点：</strong>通过理解并追求总体目标的AI代理实现自主、主动的价值创造。",
+                agentic_focus: "<strong>焦点：：</strong>通过理解并追求总体目标的AI代理实现自主、主动的价值创造。",
                 agentic_tech: "<strong>技术：</strong>是业务的自主行动者和学习引擎。AI做出决策并自我优化。",
                 agentic_action: "<strong>行动：</strong>AI代理主动识别客户需求，开发产品变体，优化供应链，并管理运营。",
-                agentic_proactivity: "<strong>主动性：</strong>系统高度主动并自我优化；人类成为战略监督者。",
+                agentic_proactivity: "<strong>主动性：：</strong>系统高度主动并自我优化；人类成为战略监督者。",
                 leapfrog_main_title: "战略机遇：“蛙跳式”飞跃",
                 leapfrog_main_subtitle: "数字化企业不必遵循线性路径。它们可以通过直接跳到代理式领导地位来跳过数字阶段并超越竞争对手。",
                 leapfrog_stage1_title: "阶段1：数字化",
@@ -648,6 +718,7 @@
             });
 
             // Update chart axis titles and tooltip callbacks
+            // Only attempt to update chart if it has been initialized
             if (window.maturityChart) {
                 window.maturityChart.options.scales.x.title.text = translations[lang].chart_x_axis;
                 window.maturityChart.options.scales.y.title.text = translations[lang].chart_y_axis;
@@ -666,10 +737,10 @@
                             summary = translations[lang].chart_agentic_summary;
                             break;
                         // For English dataset labels, if the chart labels themselves are not translated
-                        case 'Digitized':
+                        case 'Digitized': // This label comes from the dataset, not data-lang-key
                             summary = translations[lang].chart_digitalized_summary;
                             break;
-                        case 'Agentic':
+                        case 'Agentic': // This label comes from the dataset, not data-lang-key
                             summary = translations[lang].chart_agentic_summary;
                             break;
                     }
@@ -683,7 +754,99 @@
         }
 
         document.addEventListener('DOMContentLoaded', function () {
-            // Set initial language on load
+            // Chart.js functionality - Initialize the chart FIRST
+            const ctx = document.getElementById('maturityChart').getContext('2d');
+            window.maturityChart = new Chart(ctx, { // Assign to window for global access
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Digitalisiert', // This label is fixed in the dataset, its summary is translated
+                        data: [{x: 2, y: 2}],
+                        backgroundColor: 'rgba(239, 68, 68, 0.8)',
+                        pointRadius: 15,
+                        pointHoverRadius: 20,
+                    }, {
+                        label: 'Digital', // This label is fixed in the dataset, its summary is translated
+                        data: [{x: 5, y: 6}],
+                        backgroundColor: 'rgba(59, 130, 246, 0.8)',
+                         pointRadius: 15,
+                        pointHoverRadius: 20,
+                    }, {
+                        label: 'Agentisch', // This label is fixed in the dataset, its summary is translated
+                        data: [{x: 8, y: 9}],
+                        backgroundColor: 'rgba(22, 163, 74, 0.8)',
+                        pointRadius: 15,
+                        pointHoverRadius: 20,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            type: 'linear',
+                            position: 'bottom',
+                            title: {
+                                display: true,
+                                // Use currentLang for initial chart axis title
+                                text: translations[currentLang].chart_x_axis,
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            },
+                            min: 0,
+                            max: 10
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                // Use currentLang for initial chart axis title
+                                text: translations[currentLang].chart_y_axis,
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            },
+                             min: 0,
+                            max: 10
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    let summary = '';
+                                    // Use the fixed dataset label to get the correct translated summary
+                                    switch(context.dataset.label) {
+                                        case 'Digitalisiert':
+                                            summary = translations[currentLang].chart_digitalized_summary;
+                                            break;
+                                        case 'Digital':
+                                            summary = translations[currentLang].chart_digital_summary;
+                                            break;
+                                        case 'Agentisch':
+                                            summary = translations[currentLang].chart_agentic_summary;
+                                            break;
+                                    }
+                                    return summary;
+                                }
+                            },
+                            bodyFont: {
+                                size: 12
+                            },
+                            padding: 10,
+                            backgroundColor: 'rgba(31, 41, 55, 0.9)'
+                        }
+                    }
+                }
+            });
+
+            // Now apply the language to all elements, including the chart's initial state
             document.getElementById('language-select').value = currentLang;
             applyLanguage(currentLang);
 
@@ -738,96 +901,6 @@
                         icon.style.transform = 'rotate(45deg)';
                     }
                 });
-            });
-
-            // Chart.js functionality
-            const ctx = document.getElementById('maturityChart').getContext('2d');
-            window.maturityChart = new Chart(ctx, { // Assign to window for global access
-                type: 'scatter',
-                data: {
-                    datasets: [{
-                        label: 'Digitalisiert', // Fixed label for internal logic, summary is translated
-                        data: [{x: 2, y: 2}],
-                        backgroundColor: 'rgba(239, 68, 68, 0.8)',
-                        pointRadius: 15,
-                        pointHoverRadius: 20,
-                    }, {
-                        label: 'Digital', // Fixed label for internal logic, summary is translated
-                        data: [{x: 5, y: 6}],
-                        backgroundColor: 'rgba(59, 130, 246, 0.8)',
-                         pointRadius: 15,
-                        pointHoverRadius: 20,
-                    }, {
-                        label: 'Agentisch', // Fixed label for internal logic, summary is translated
-                        data: [{x: 8, y: 9}],
-                        backgroundColor: 'rgba(22, 163, 74, 0.8)',
-                        pointRadius: 15,
-                        pointHoverRadius: 20,
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        x: {
-                            type: 'linear',
-                            position: 'bottom',
-                            title: {
-                                display: true,
-                                text: translations[currentLang].chart_x_axis,
-                                font: {
-                                    size: 14,
-                                    weight: 'bold'
-                                }
-                            },
-                            min: 0,
-                            max: 10
-                        },
-                        y: {
-                            title: {
-                                display: true,
-                                text: translations[currentLang].chart_y_axis,
-                                font: {
-                                    size: 14,
-                                    weight: 'bold'
-                                }
-                            },
-                             min: 0,
-                            max: 10
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            position: 'top',
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    let label = context.dataset.label || '';
-                                    let summary = '';
-                                    // Use the fixed dataset label to get the correct translated summary
-                                    switch(context.dataset.label) {
-                                        case 'Digitalisiert':
-                                            summary = translations[currentLang].chart_digitalized_summary;
-                                            break;
-                                        case 'Digital':
-                                            summary = translations[currentLang].chart_digital_summary;
-                                            break;
-                                        case 'Agentisch':
-                                            summary = translations[currentLang].chart_agentic_summary;
-                                            break;
-                                    }
-                                    return summary;
-                                }
-                            },
-                            bodyFont: {
-                                size: 12
-                            },
-                            padding: 10,
-                            backgroundColor: 'rgba(31, 41, 55, 0.9)'
-                        }
-                    }
-                }
             });
         });
     </script>
